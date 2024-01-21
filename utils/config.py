@@ -14,7 +14,7 @@ class Config:
                 "domain_name": "example.com",
                 "rrkey_word": "www",
                 "rtype": "AAAA",
-                "interval": 1
+                "interval": 5
             }
             with open(self.file, 'w') as configfile:
                 self.config.write(configfile)
